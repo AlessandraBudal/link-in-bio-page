@@ -94,12 +94,18 @@ body * {
   box-shadow: 0 0 25px var(--pink-glow);
 }
 
-#profile h1 {
-  font-size: 1.25rem;
-  font-weight: 700;
-  margin-top: 12px;
-  letter-spacing: -0.02em;
+ #profile img {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 50%;
+  padding: 4px;
+  border: 2px solid var(--pink-primary);
+  box-shadow: 0 0 25px var(--pink-glow);
+  display: block;
+  margin: 0 auto; /* Centraliza a imagem */
 }
+
 
 #profile p {
   font-size: 0.875rem;
